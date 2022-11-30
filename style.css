@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+h1
+{
+    padding-left: 70px;
+}
+
 header
 {
     background-color: #1F2937;
@@ -24,6 +29,44 @@ ul
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+h2
+{
+    color: ##F9FAF8;
+}
+
+button
+{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+}
+
+.image
+{
+    background-color: darkgrey;
+    width: 500px;
+    height: 160px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.container2
+{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 80px;
 }
 
 .body1
@@ -62,6 +105,7 @@ ul
     text-align: center;
     margin: 50px 100px;
     padding: 80px 100px;
+    color: #1F2937;
 }
 
 .call-to-action
@@ -72,7 +116,11 @@ ul
     margin-right: 150px;
     padding-left: 80px;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 
 footer
 {
